@@ -1,0 +1,12 @@
+{
+    "name" : "AddContentControl",
+    "guid" : "asc.{D36DFFB5-08F0-4A68-B829-5FB1F7D49728}",
+    "variations" : [
+        {
+            "url"         : "index.html",
+            "icons"           : ["icon.png"],
+            "EditorsSupport"  : ["word"],
+            "buttons"         : []
+        }
+    ]
+}

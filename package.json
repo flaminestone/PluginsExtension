@@ -5,9 +5,11 @@
   "main": "PluginsExtension.js",
   "dependencies": {},
   "devDependencies": {
-    "eslint": "^5.8.0"
+    "eslint": "^5.8.0",
+    "uglifyjs": "^2.4.11"
   },
   "scripts": {
+    "release": "uglifyjs PluginsExtension.js -o PluginsExtension.min.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
